@@ -2,7 +2,7 @@ const mongoose = require('mongoose');
 
 const connect=async()=>{
     try {
-        await mongoose.connect('mongodb+srv://lakumkeval:keval2851@cluster0.codva4g.mongodb.net/?retryWrites=true&w=majority')
+        await mongoose.connect('mongodb://127.0.0.1:27017');
 console.log('connected to server');
 
     } catch (error) {
