@@ -19,7 +19,7 @@ app.use(passport.session());
 app.use(users)
 
 
-app.listen(7080,()=>{
+app.listen(7070,()=>{
     console.log('listening on port 7080');
     connect();
 })

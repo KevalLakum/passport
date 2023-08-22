@@ -4,7 +4,7 @@ const mongoose = require('mongoose');
 let userschema=mongoose.Schema({
     username:String,
     email:String,
-    password:String
+    password:Number
 })
 
 // UserShcema=pre('save', async function(next){

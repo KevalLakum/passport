@@ -6,9 +6,9 @@ const users= express();
 
 
 
-// users.get('/',homepage);
-users.get('/',home);
-users.get('/',homepage)
+users.get('/',homepage);
+
+
 users.get('/home',auth,home)
 users.get('/session',session)
 users.get('/singup',singup)

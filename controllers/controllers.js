@@ -1,8 +1,8 @@
 const passport = require("passport")
 const user = require("../model/schema")
 
-const homepage=(req,res) => {
-    res.render('index')
+const homepage= async(req,res) => {
+  res.render('index');
 }
 const home=(req,res)=>{
     res.render('index')
